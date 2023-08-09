@@ -1,0 +1,43 @@
+.rectangles {
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  &__grid-item {
+    height: 200px;
+
+    border: 1px solid #858484;
+    border-radius: 4px;
+    background-color: rgb(148, 238, 238);
+
+    transition: all 0.5s;
+
+    &:hover {
+      animation: shake 0.7s;
+    }
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: skewY(-1deg);
+  }
+  15% {
+    transform: skewY(1deg);
+  }
+  30% {
+    transform: skewY(-1deg);
+  }
+  45% {
+    transform: skewY(1deg);
+  }
+  60% {
+    transform: skewY(0deg);
+  }
+  100% {
+    transform: skewY(0deg);
+  }
+}

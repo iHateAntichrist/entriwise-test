@@ -1,7 +1,10 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import url(./header.scss);
+@import url(./rectangles.scss);
 
 body {
   background: $c-gray;
+  font-family: Roboto, sans-serif;
 }
