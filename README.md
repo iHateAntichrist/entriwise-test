@@ -1,4 +1,3 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
+# Entriwise test task
+Created a layout using CSS Flexbox and CSS grid.  Added a small animation on hover for the block of content.
     - [DEMO LINK]**(https://iHateAntichrist.github.io/entriwise-test/**)
